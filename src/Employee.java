@@ -2,15 +2,15 @@ public class Employee {
     private final String name;
     private int division;
     private int salary;
-    private static int COUNT = 1;
-    private final int id = COUNT;
+    private static int count = 1;
+    private final int id = count;
 
 
     public Employee(String name, int division, int salary) {
         this.name = name;
         this.division = division;
         this.salary = salary;
-        this.COUNT++;
+        count++;
     }
 
     public String getName() {
