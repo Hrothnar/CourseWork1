@@ -5,7 +5,6 @@ public class Employee {
     private static int count = 1;
     private final int id = count;
 
-
     public Employee(String name, int division, int salary) {
         this.name = name;
         this.division = division;
